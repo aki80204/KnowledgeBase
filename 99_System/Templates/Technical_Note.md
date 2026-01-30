@@ -1,8 +1,10 @@
 ---
 category: Architecture
 book: ソフトウェアアーキテクチャの基礎
-tags: [#study, #architecture]
-created: YYYY-MM-DD
+tags:
+  - study
+  - architecture
+created: 2026-01-28
 ---
 
 ## 1. 一言で言うと？
