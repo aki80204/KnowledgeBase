@@ -1,1 +1,16 @@
-.obsidian/
+# Build artifacts
+bin/
+build/
+.gradle/
+
+# Eclipse metadata
+.project
+.classpath
+.settings/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# External
+.obsidian
