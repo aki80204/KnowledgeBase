@@ -29,20 +29,12 @@ public class Withdrawal {
 
     /** 対象日付が土日、祝日の場合最初の営業日まで日付を調整する。 */
     private LocalDate adjustToNextBusinessDay(LocalDate date) {
-
-      while (true) {
-        if (Utils.isWeekend(date)) {
-          date = date.plusDays(1);
-          continue;
-        }
-
-        if (Constants.HOLIDAYS_2026.contains(date)) {
-          date = date.plusDays(1);
-          continue;
-        }
-
-        return date;
+      LocalDate target = date;
+      // 「週末」または「祝日」である限り、1日ずつ進める
+      while (Utils.isWeekend(target) || Constants.HOLIDAYS_2026.contains(target)) {
+        target = target.plusDays(1);
       }
+      return target;
     }
   }
 }
