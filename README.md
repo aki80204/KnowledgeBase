@@ -19,7 +19,7 @@
 - **[01_Fundamentals](./01_Fundamentals/)**: 流行り廃りのない設計原則
     - ソフトウェアアーキテクチャの基礎（コンポーネント、モジュール性、結合度等の考察）
     - 金融ドメイン知識（トランザクション、冪等性設計）
-- **[02_Technologies](./02_Technologies/)** (Coming Soon): 具体的な技術スタックの深掘り
+- **[02_Technologies](./02_Technologies/)**: 具体的な技術スタックの深掘り
 - **[03_Projects](./03_Projects/)** (Planning): 知識の実践（ポートフォリオ）
 
 ## 🚀 Current Focus
